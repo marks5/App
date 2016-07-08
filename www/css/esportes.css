@@ -1,0 +1,16 @@
+.icon > img {
+	width: 100%;
+}
+
+.linha {
+	position: relative;
+	margin-bottom: 1.2em;
+	height: 6.2em;
+	margin-top: 1em
+}
+
+.esportesh2 {
+	line-height: 100px;
+	margin-left: 0.62em;
+	font-size:1.5em
+}

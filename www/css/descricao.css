@@ -1,0 +1,21 @@
+.texto { /*parágrafos normais*/
+	margin-bottom:2.2em;
+}
+
+h3 { /*subtítulo do subtítulo*/
+	text-decoration:bold;
+}
+
+h4 { /*subtítulo do subtítulo*/
+	text-decoration:bold;
+}
+
+.h4{ /*subtítulo do subtítulo*/
+	margin-top: 1.2em;
+}
+
+
+p { 
+	margin-top: 0em;
+	margin-right: 0.6em;
+}

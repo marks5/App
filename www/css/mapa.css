@@ -1,0 +1,30 @@
+#pin div{
+	float:left;
+}
+#pin img{
+	width:50%;
+	height:50%;
+}
+
+#clock div{
+	float:left;
+}
+#clock img{
+	width:50%;
+	height:50%;
+}
+
+#map div{
+	position:relative;
+	float:left;
+	width: 100%;
+	height: 50%;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+#clock,#pin{
+	padding:1%;
+	margin:2%;
+}

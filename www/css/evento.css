@@ -1,0 +1,47 @@
+h2 {
+	font-size: 1.8em;
+	margin-bottom: 10%;
+}
+
+.tituloEvento {
+	font-size: 1.3em;
+}
+
+.myButton {
+	background-color:#ff9900;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ff9900;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	height: 35px;
+	width: 90px;
+	text-decoration:none;
+	display: block;
+	margin: 0 auto;
+}
+.myButton:hover {
+	background-color:#ff9900;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.linhaEvento {
+	margin-bottom: 7%;
+}
+
+#titulo {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+p {
+	font-size: 1.2em;
+}

@@ -1,0 +1,10 @@
+.pc50 { /*30% da linha*/
+	position: relative;
+	float: center;
+	width: 60%;
+	margin-top: 50%;
+}
+
+.loafont{ 
+	font-family: Arial;
+}

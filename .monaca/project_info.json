@@ -1,0 +1,29 @@
+{
+    "plugins": [
+        "mobi.monaca.plugins.Monaca@3.0.0"
+    ],
+    "framework_version": "3.5",
+    "xcode_version": "7",
+    "cordova_version": "6.2",
+    "plugin_settings": {
+        "cordova-plugin-crosswalk-webview": {
+            "variables": [
+                "XWALK_VERSION=18.48.477.13"
+            ]
+        }
+    },
+    "external_plugins": [
+        "cordova-plugin-whitelist@1.2.2",
+        "cordova-plugin-splashscreen@3.2.2",
+        "cordova-plugin-geolocation@2.2.0"
+    ],
+    "title-ja": "",
+    "title-en": "Etets",
+    "description-ja": "",
+    "description-en": "",
+    "category": "User Template",
+    "platform": [
+        "android"
+    ],
+    "name": "generated-1468014393-578014fffd1734cb6a939d28"
+}

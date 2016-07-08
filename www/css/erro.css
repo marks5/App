@@ -1,0 +1,29 @@
+.fonterror{
+	font-family: calibri;
+}
+
+#ImgFundo{
+	
+	padding-left:10%;
+	padding-top:30%;
+	display:in-block;
+	width:100%;
+	
+}
+
+
+#Descricao{
+	
+	width:66%;
+	margin:0 auto;
+	display:block;
+	margin-right: 75px;
+}
+
+#Descricao p{
+	
+	font-size: 0.8em;
+	margin:4%;
+	padding:2%;
+	text-align:left;
+}

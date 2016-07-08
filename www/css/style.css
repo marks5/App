@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+}
+@font-face {
+font-family: "condensed";
+src: url("condensed.ttf") format("truetype");
+src: url("condensed.otf") format("opentype");
+}
+
+@font-face {
+font-family: "italic";
+src: url("citalic.ttf") format("truetype");
+src: url("citalic.otf") format("opentype");
+}
+
+@font-face {
+font-family: "bold";
+src: url("bold.ttf") format("truetype");
+src: url("bold.otf") format("opentype");
+}
+
+
+/* HEADER */
+
+header {
+  	padding: 5%;
+  	background-image: url(../images/top.png);
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	height: 30%;
+  	position: relative;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+	font-family: "italic";
+}
+
+	/*menu hamburguer*/
+.menu-icon-bar {
+    display: block;
+    width: 2em;
+    height: .3em;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 4px 0;
+    border-radius: 1px;
+}
+
+#menu-icon {
+	float: left;
+	position: absolute;
+	top: 40%;
+}
+	/*fim hamburguer*/
+
+
+/* END HEADER */
+
+/* CONTENT */
+#content {
+	padding: 5%;
+}
+
+h2 { /* Subtítulos */
+	font-size: 2em;
+	font-family: "italic";
+}
+
+p { /*parágrafos normais*/
+	font-size: 1.5em;
+}
+
+.description { /*descrições de texto com fonte menor*/
+	font-size: 1em;
+}
+
+a, a:link, a:visited, a:hover, a:active { /*links*/
+	text-decoration: none;
+	color: black;
+}
+img {
+	width: 100%;
+} 
+
+
+	/*Divisão em colunas*/
+
+.linha {
+	clear: both;
+}
+.pc100 { /*100% da linha*/
+	position: relative;
+	float: left;
+	width: 100%; 
+}
+
+.pc30 { /*30% da linha*/
+	position: relative;
+	float: left;
+	width: 30%;
+}
+
+.pc70 { /*70% da linha*/
+	position: relative;
+	float: left;
+	width: 70%;
+}
+	/*fim da divisão em colunas*/
+
+/* END CONTENT */
